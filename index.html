@@ -1,0 +1,10 @@
+---
+layout: root
+title: Index
+---
+<h1>Tools</h1>
+<ul>
+{% for tool in site.tools %}
+    <li><a href="{{ site.data.global.root-src }}{{ tool.url }}">{{ tool.title }}</a></li>
+{% endfor %}
+</ul>

@@ -1,0 +1,7 @@
+# Collections
+collections:
+  tools:
+    output: true
+
+# Build settings
+exclude: ['README.md']
