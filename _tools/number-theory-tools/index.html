@@ -2,11 +2,19 @@
 layout: root
 title: Number Theory Tools
 ---
+<div id="prime-table">
+    <h3>Prime Table Generator</h3>
+    <p>Based on Euler's sieve, \(O(n)\)</p>
+    <input class="input" type="number" placeholder="range:integer">
+    <button>gen</button>
+    <p class="output"></p>
+</div>
 <div id="factorization">
     <h3>Integer Factorization</h3>
-    <input placeholder="Input a positive integer here">
+    <p>Simple \(O(\sqrt n)\) one</p>
+    <input class="input" type="number" placeholder="number:integer">
     <button>calc</button>
-    <p></p>
+    <p class="output"></p>
 </div>
 
 <script src="math.js"></script>

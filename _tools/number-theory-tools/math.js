@@ -14,7 +14,6 @@ function EulerSieve(N){
     this.P = P; this.pN = pN; this.notP = notP;
 }
 
-
 function Factorization(N){
     var p=[], c=[], sN=0;
     var sqrtN=Math.floor(Math.sqrt(N));
@@ -34,4 +33,3 @@ function Factorization(N){
 
     this.p = p; this.c = c; this.sN = sN;
 }
-
